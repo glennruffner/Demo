@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/glennruffner/Demo/twoSum"
+
+	"github.com/glennruffner/Demo2/twoSum"
 )
 
 func main() {
-	a := twoSum("1", "2")
+	a := twoSum.TwoSum("123456733", "22")
 	fmt.Println(a)
 }

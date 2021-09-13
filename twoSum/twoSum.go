@@ -73,11 +73,11 @@ func TwoSum(fld1, fld2 string) string {
 		index2--
 	}
 	if index1 >= 0 {
-		fmt.Println("remaining added:", fld1[0:index1])
-		answer = fld1[0:index1] + answer
+		fmt.Println("remaining added:", fld1[0:index1+1])
+		answer = fld1[0:index1+1] + answer
 	}
 	if index2 >= 0 {
-		answer = fld2[0:index2] + answer
+		answer = fld2[0:index2+1] + answer
 	}
 	fmt.Println("returning:", answer)
 	return answer

@@ -1,4 +1,4 @@
-module GitHub/Demo
+module github.com/glennruffner/Demo2
 
 go 1.17
 
